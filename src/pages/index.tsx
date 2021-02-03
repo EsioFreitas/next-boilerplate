@@ -1,4 +1,4 @@
-import Exemple from 'Exemple';
+import Exemple from 'components/Exemple';
 
 export default function Home() {
   return (
