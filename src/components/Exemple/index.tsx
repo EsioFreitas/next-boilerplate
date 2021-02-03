@@ -1,5 +1,5 @@
 import * as S from './styles';
 
-const Exemple = () => <S.Wrapper>Exemple</S.Wrapper>;
+const Exemple = ({ title = 'Exemple' }) => <S.Wrapper>{title}</S.Wrapper>;
 
 export default Exemple;
